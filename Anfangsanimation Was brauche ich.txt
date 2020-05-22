@@ -1,0 +1,12 @@
+
+Augen öffnen sich = augen öffnen animation
+
+einblendung von Wasd = nur leichgtes rütteln durch wasd
+
+Laut panisches atmen einfügen. 
+
+Gestalt steht vor einem =gestalt hinstellen
+
+versucht sich zu beruhigen = atem beruhigen durch tasten drücken
+
+ein augen blicken dann ist die gestalt weg. danach kann er aufstehen
