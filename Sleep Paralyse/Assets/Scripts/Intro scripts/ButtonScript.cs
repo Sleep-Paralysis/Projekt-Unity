@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using EZCameraShake;
 
 public class ButtonScript : MonoBehaviour
 {
@@ -30,6 +31,8 @@ public class ButtonScript : MonoBehaviour
         {
             FadeToColor(_button.colors.pressedColor);
             _button.onClick.Invoke();
+            CameraShaker.Instance.ShakeOnce(3f, 4f, .1f, 1f);
+
         }
         else if(Input.GetKeyUp(_Key))
         {
