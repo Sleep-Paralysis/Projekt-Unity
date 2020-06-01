@@ -1,0 +1,16 @@
+You can make a function that changes every child material, like so:
+
+
+    private void ChangeMaterial(Renderer renderer, Material newMat)
+    {
+        Renderer[] children;
+        children = renderer.GetComponentsInChildren<Renderer>();
+        foreach (Renderer curRend in children)
+        {
+            curRend.material = newMat;
+        }
+    }
+
+and call it like that:
+
+ChangeMaterial(selectionRenderer, highlightMaterial);
